@@ -1,3 +1,40 @@
-div.nav {
-  background-color: thistle;
+.content {
+  margin-top: 205px;
+}
+
+header {
+  overflow: hidden; 
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #fffff2;
+
+}
+
+.nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 30px;
+  margin: 10px 0;
   }
+
+.nav-bar li {
+  list-style-type: none;
+  background-color: #bf8589;
+  border-radius: 30px;
+  display: inline-block;
+  margin: 0 5px;
+  padding: 3px 12px;
+}
+
+.nav-bar a{
+  text-decoration: none;
+  color: #fffff2;
+  font-family: 'Lato', sans-serif;
+}
+
+.nav-bar li:hover {
+  background-color:#84a2a3;
+}
