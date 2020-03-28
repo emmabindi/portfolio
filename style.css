@@ -1,0 +1,38 @@
+@import "nav.css"; 
+@import url('https://fonts.googleapis.com/css?family=Kristi|Lato|Open+Sans&display=swap');
+
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+div.img-container {
+  width: 100vw;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 10px solid yellow;
+
+}
+
+div.image {
+  background-image: url(./design/brick-wall.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 95vw;
+  height: 60vh;
+  border: 1px solid red;
+}
+
+div.name {
+  width: 300px;
+}
+
+div.name h1 {
+  font-family: 'Kristi', cursive;
+  font-size: 60px;
+  letter-spacing: 2px;
+  color: #84a2a3;
+}
