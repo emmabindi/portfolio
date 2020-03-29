@@ -64,10 +64,10 @@ form p {
 }
 
 /* the below isn't working!! trying to make submit button look better */
-#submit {
+/* #submit { */
   /* width: 50px;
   height: auto;
   background: rgb(58, 134, 243);
   color: white;
   border-radius: 4px; */
-}
+/* } */
