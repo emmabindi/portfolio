@@ -3,12 +3,39 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/css/contactme.css">
+  <link rel="stylesheet" href="/style.css">
+  
   <title>Contact Me</title>
 </head>
 <body>
+  <div class="contactpage">
+  <div class="name">
   <h3>Contact Me</h3>
-  <div image>
-    <img src="/design/ebprofilepic.jpeg">
+
   </div>
+
+
+  <div class="profilepic"></div>
+
+  <form action="https://formspree.io/mnqzkzby" method="POST">
+    <p>Please input your details here:</p>
+    <label>
+    Your name:
+    <input type="text">
+    </label>
+    
+    <label>
+    Your email:
+    <input type="text" name="_replyto">
+  </label>
+  <label>
+    Your message:
+    <textarea name="message"></textarea>
+  </label>
+  <button type="submit">Send</button>
+</form>
+</div>
+
 </body>
 </html>

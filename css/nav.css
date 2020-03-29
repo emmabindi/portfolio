@@ -1,5 +1,6 @@
 .content {
   margin-top: 205px;
+  margin-bottom: 100px;
 }
 
 header {
@@ -8,7 +9,7 @@ header {
   top: 0;
   width: 100%;
   background-color: #fffff2;
-
+  border-bottom: 1px dashed #bf8589;
 }
 
 .nav-bar {
