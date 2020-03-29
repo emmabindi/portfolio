@@ -1,0 +1,14 @@
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  /* background-color: yellow; */
+  color: #84a2a3;
+  text-align: center;
+  background-color: #fffff2;
+  font-family: 'Lato', sans-serif;
+  padding: 20px 0 20px 0;
+  border-top: 1px dashed #bf8589;
+}
+

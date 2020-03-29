@@ -8,7 +8,7 @@ header {
   top: 0;
   width: 100%;
   background-color: #fffff2;
-
+  border-bottom: 1px dashed #bf8589;
 }
 
 .nav-bar {
