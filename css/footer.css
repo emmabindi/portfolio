@@ -1,0 +1,31 @@
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: #84a2a3;
+  background-color: #fffff2;
+  font-family: 'Lato', sans-serif;
+  padding: 20px 30px 20px 30px;
+  border-top: 1px dashed #bf8589;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-logos a {
+  padding-right: 20px;
+  justify-content: left;
+  font-size: 40px;
+  color: #535460;
+}
+
+.footer-logos a:hover {
+  opacity: 0.5;
+}
+
+
+.footer-words p {
+  color:#84a2a3;
+
+}
