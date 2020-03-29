@@ -1,14 +1,35 @@
-.footer {
+footer {
   position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
-  /* background-color: yellow; */
   color: #84a2a3;
   text-align: center;
   background-color: #fffff2;
   font-family: 'Lato', sans-serif;
   padding: 20px 0 20px 0;
   border-top: 1px dashed #bf8589;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
+.footer-logos {
+  /* padding: 20px; */
+  font-size: 30px;
+  width: 70px;
+  justify-content: start;
+  text-align: center;
+  text-decoration: none;  
+  border-radius: 50%;
+}
+
+.footer-logos:hover {
+  opacity: 0.7;
+}
+
+
+.footer-words {
+  color: red;
+
+}
