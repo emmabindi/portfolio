@@ -7,17 +7,16 @@
 }
 
 blogpage {
-  /* border: 3px solid red; */
   padding: 10px;
-  /* margin-top: 183px; */
+  margin-top: 245px;
   margin-bottom: 100px;
   height: auto;
   display: flex;
   flex-direction: row;
+  /* background-color: ; it's white for now - want to update this */
 }
 
 pagetitle {
-  border: 2px solid purple;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -28,7 +27,7 @@ pagetitle {
 }
 
 bloglistcontainer {
-  border: 2px solid yellow;
+  /* border: 2px solid yellow; */
   width: 180px;
   height: 100vh;
   display: flex;
@@ -56,11 +55,13 @@ bloglistcontainer h3 {
 .blog-post-title {
   text-decoration: none;
 }
+
 /* THE BELOW IS THE GRID FOR THE INDIV BLOG POSTS  */
 
 blogpostcontainer {
   width: 100vw;
   height: 100vh;
+  margin-bottom: 235px;
 }
 
 blogpostarticle {

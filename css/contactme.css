@@ -4,7 +4,7 @@
   display: flex;
   align-items: flex-start;
   justify-content: center;
-  margin-top: 183px;
+  margin-top: 245px;
   margin-bottom: 100px;
 }
 
@@ -13,7 +13,7 @@
   /* position: fixed; */
   height: 690px;
   width: 100vw;
-  grid-template-rows: 1fr 8fr;
+  grid-template-rows: 1fr 10fr;
   grid-template-columns: 5fr 2fr;
   background-color: #84a2a3;
 }
