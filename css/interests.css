@@ -1,9 +1,11 @@
 .interestspage {
   margin-top: 245px;
+  margin-bottom: 100px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  height: 100vh; 
+  justify-content: center;
+  height: auto; 
   width: 100vw;
   border: 2px solid red;
 }
@@ -12,7 +14,7 @@
   display: flex;
   justify-content: space-between;
   flex-direction: row;
-  width: 500px;
+  width: 550px;
   height: auto;
   border: 2px solid yellow;
   margin: 10px 10px;
@@ -22,7 +24,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 475px;
+  width: 540px;
   height: auto;
   border: 2px solid green;
 }
@@ -37,22 +39,23 @@
 .interest-img {
   border: 1px solid pink;
   border-radius: 5px;
-  width: 350px;
+  width: 290px;
   height: 200px;
   background-size: cover;
   background-position: center;
   margin: 5px;
+  justify-content: left;
 }
 
 .interest-info {
   font-size: 11px;
   font-weight: lighter;
   text-align: center;
-  width: 150px;
+  width: 250px;
 }
 
 #interest1 .interest-img {
-  background-image: url(/design/riding-yarra-river.jpg);
+  background-image: url(/design/triathalon-mountainbike.jpeg);
   background-size: cover;
   background-position: center;
 }
@@ -67,5 +70,22 @@
   background-image: url(/design/wine-slovenia-landscape.png);
   background-size: cover;
   background-position: center;
+}
 
+#interest4 .interest-img {
+  background-image: url(/design/countries-visited-map.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+#interest5 .interest-img {
+  background-image: url(/design/lifeline-xmas.png);
+  background-size: cover;
+  background-position: center;
+}
+
+#interest6 .interest-img {
+  background-image: url(/design/me-reading-gone-girl.png);
+  background-size: cover;
+  background-position: center;
 }
