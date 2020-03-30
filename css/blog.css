@@ -1,0 +1,71 @@
+/* 
+  <blogpost>
+  <blog-img>Img here</blog-img>
+  <blog-post-title>Testing Title</blog-post-title>
+  <blog-post-date>Testing Date</blog-post-date>
+  <blog-post-article>This is the long story</blog-post-article>
+</blogpost>
+
+</blogpage> */
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+blogpage {
+  border: 3px solid red;
+  padding: 100px;
+  display: grid;
+  grid-template-columns: 2;
+  grid-template-rows: 2;
+}
+
+pagetitle {
+  grid-row: 1;
+  grid-column: 1 / 3;
+  border: 2px solid purple;
+  text-align: center;
+
+}
+
+bloglistcontainer {
+  border: 2px solid yellow;
+  padding: 100px;
+  grid-row: 2;
+  grid-column: 1;
+}
+
+blogpost {
+  border: 4px solid green;
+  grid-row: 2;
+  grid-column: 2;
+  display: grid;
+  grid-template-columns: 2;
+  grid-template-rows: 3;
+}
+
+blog-img {
+  grid-row: 1 / 3;
+  grid-column: 1;
+  border: 4px dashed pink;
+}
+
+blog-post-title {
+  grid-row: 1;
+  grid-column: 2;
+  border: 4px dashed black;
+}
+
+blog-post-date {
+  grid-row: 2;
+  grid-column: 2;
+  border: 4px dashed black;
+}
+
+blog-post-article {
+  grid-row: 3;
+  grid-column: 1 / 3;
+  border: 4px dashed blue;
+}
