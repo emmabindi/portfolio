@@ -19,8 +19,9 @@ pagetitle {
   grid-row: 1;
   grid-column: 1 / 3;
   border: 2px solid purple;
-  text-align: center;
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 bloglistcontainer {
@@ -44,9 +45,11 @@ bloglistcontainer {
   padding: 5px 10px;
 }
 
-.latest-posts-entry .blog-post-title {
+.blog-post-title {
   text-decoration: none;
 }
+
+/* THE BELOW IS THE GRID FOR THE INDIV BLOG POSTS  */
 
 .blogpost {
   border: 4px solid green;
