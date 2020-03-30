@@ -10,16 +10,16 @@
 
 .grid {
   display: grid;
-  position: fixed;
+  /* position: fixed; */
   height: 690px;
   width: 100vw;
   grid-template-rows: 1fr 8fr;
-  grid-template-columns: 6fr 1fr;
+  grid-template-columns: 5fr 2fr;
   background-color: #84a2a3;
 }
 
 div.profilepic {
-  width: 600px;
+  width: 530px;
   height: 500px;
   background-image: url("/design/ebprofilepic.jpeg");
   background-repeat: no-repeat;
@@ -29,6 +29,7 @@ div.profilepic {
   border-radius: 50%;
   grid-row: 2 / 3;
   grid-column: 1 / 2;
+  
 }
 
 .page-title {
@@ -49,7 +50,7 @@ form {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 390px;
+  width: 450px;
   height: 500px;
   grid-row: 2 / 3;
   grid-column: 2 / 3;
