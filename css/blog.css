@@ -10,7 +10,7 @@ blogpage {
   padding: 10px;
   margin-top: 245px;
   margin-bottom: 100px;
-  height: auto;
+  /* height: auto; */
   display: flex;
   flex-direction: row;
   /* background-color: ; it's white for now - want to update this */
@@ -61,7 +61,7 @@ bloglistcontainer h3 {
 blogpostcontainer {
   width: 100vw;
   height: 100vh;
-  margin-bottom: 235px;
+  margin-bottom: 280px;
 }
 
 blogpostarticle {
