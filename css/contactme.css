@@ -1,26 +1,26 @@
 .contactpage {
   width: 100vw;
-  height: 650px;
+  height: 700px;
   display: flex;
   align-items: flex-start;
   justify-content: center;
   margin-top: 245px;
-  margin-bottom: 100px;
+  /* margin-bottom: 100px; */
   background-color: #84a2a3;
 }
 
 .grid {
   display: grid;
   flex-wrap: wrap;
-  height: 500px;
+  height: 550px;
   width: 100vw;
   grid-template-rows: 1;
-  grid-template-columns: 70% 30%;
+  grid-template-columns: 60% 40%;
 }
 
 div.profilepic {
-  width: 530px;
-  height: 500px;
+  width: auto;
+  height: auto;
   background-image: url("/design/ebprofilepic.jpeg");
   background-repeat: no-repeat;
   background-position: center;
