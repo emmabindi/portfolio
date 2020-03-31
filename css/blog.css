@@ -8,7 +8,7 @@
 blogpage {
   padding: 20px;
   /* margin-top: 455px; */
-  margin-bottom: 70px;
+  margin-bottom: 100px;
   height: auto;
   display: flex;
   flex-direction: row;
@@ -17,16 +17,16 @@ blogpage {
 
 bloglistcontainer {
   width: 180px;
-  height: 100vh;
+  height: 100%;
+  top: 0;
+  left: 0; 
+  position: fixed;
+  margin-top: 455px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   padding: 15px 10px;
   justify-content: flex-start;
-  top: 0;
-  left: 0; 
-  position: fixed;
-  margin-top: 455px;
 }
 
 bloglistcontainer h3 {
@@ -37,7 +37,6 @@ bloglistcontainer h3 {
 .latest-posts-entry {
   color: #bf8589;
   font-size: 11px;
-  /* border: 1px dashed pink; */
   display: flex;
   justify-content: space-between;
   width: auto;
