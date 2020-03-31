@@ -1,6 +1,6 @@
 .interestspage {
-  margin-top: 245px;
-  margin-bottom: 100px;
+  margin-top: 460px;
+  margin-bottom: 80px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -29,7 +29,6 @@
   justify-content: center;
   width: 540px;
   height: auto;
-  /* border: 2px solid green; */
 }
 
 .interest-title {
@@ -40,7 +39,6 @@
 }
 
 .interest-img {
-  /* border: 1px solid pink; */
   border-radius: 5px;
   width: 290px;
   height: 200px;
