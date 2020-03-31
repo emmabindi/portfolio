@@ -1,35 +1,22 @@
 .contactpage {
   width: 100vw;
-  height: 700px;
+  height: 100vh;
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   justify-content: center;
-  margin-top: 245px;
-  /* margin-bottom: 100px; */
 }
 
 .grid {
-  display: grid;
-  flex-wrap: wrap;
-  height: 550px;
-  width: 100vw;
-  grid-template-rows: 1;
-  grid-template-columns: 60% 40%;
-}
-
-div.profilepic {
-  width: auto;
-  height: auto;
-  background-image: url("/design/ebprofilepic.jpeg");
-  background-repeat: no-repeat;
+  background-image: url(/design/kingproteas-opaque.png);
   background-position: center;
   background-size: cover;
-  border: 3px solid #535460;
-  border-radius: 50%;
-  grid-row: 1;
-  grid-column: 1 / 2;
-  margin-top: 60px;
-  margin-left: 10px;
+  margin-top: 555px;
+  margin-bottom: 80px;
+  width: 95vw;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
 }
 
 h3 {
@@ -45,16 +32,25 @@ form {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 400px;
-  height: 500px;
+  width: 70vw;
   grid-row: 1;
-  background-color: #84a2a3;
+}
+
+form h5 {
+  font-family: 'Kristi', cursive;
+  color: #84a2a3;
+  font-size: 58px;
+  letter-spacing: 5px;
+  padding-bottom: 10px;
+  margin-top: 20px;
+  margin-left: 70px;
 }
 
 form label {
   color: #535460;
   font-family: 'Open Sans', sans-serif;
   margin: 12px 0px;
+  width: 180px;
 }
 
 form p {
@@ -62,11 +58,22 @@ form p {
   padding-bottom: 50px;
 }
 
-/* the below isn't working!! trying to make submit button look better */
-/* #submit { */
-  /* width: 50px;
+input {
+  width: 330px;
+  height: 30px;
+}
+
+textarea {
+  width: 370px;
+  height: 130px;
+}
+
+button {
+  width: 80px;
   height: auto;
-  background: rgb(58, 134, 243);
+  background:#535460;
   color: white;
-  border-radius: 4px; */
-/* } */
+  border-radius: 1px;
+  font-size: 18px;
+  margin-bottom: 35px;
+}

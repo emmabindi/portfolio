@@ -37,4 +37,5 @@ header {
 
 .nav-bar li:hover {
   background-color:#84a2a3;
+  box-shadow: 2px 2px 5px #bf8589;
 }

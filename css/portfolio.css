@@ -1,15 +1,15 @@
   .portfoliopage {
-    margin-top: 245px;
-    margin-bottom: 100px;
+    margin-top: 450px;
+    margin-bottom: 50px;
+    padding-bottom: 50px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
     height: auto; 
     width: 100vw;
-    background-image: url();
-    background-position: center;
-    background-size: cover;
+    background-color: #eddedf;;
+    color: #535460;
   }
   
   .portfolio-card {
@@ -18,9 +18,10 @@
     flex-direction: row;
     width: 550px;
     height: auto;
-    border-bottom: 1px dashed #bf8589;
     padding-bottom: 15px;
     margin: 10px 10px;
+    background-color: #f5f1ef;
+    box-shadow: 3px 3px 3px 3px #dbd0d0;
   }
   
   .portfolio-bottom {
@@ -29,11 +30,10 @@
     justify-content: center;
     width: 540px;
     height: auto;
-    border: 2px solid green;
   }
   
   .portfolio-title {
-    font-size: 16px;
+    font-size: 18px;
     font-weight: bold;
     text-align: center;
     padding: 15px 0;
@@ -42,11 +42,11 @@
   .portfolio-subtitle {
     text-align: center;
     padding: 5px;
-    color: red;
+    font-weight: bold;
+    font-size: 13px;
   }
   
   .portfolio-img {
-    border: 1px solid pink;
     border-radius: 5px;
     width: 170px;
     height: 200px;
@@ -62,7 +62,6 @@
     text-align: center;
     width: 350px;
     margin-left: 5px;
-    border: 3px solid yellow;
   }
 
   .portfolio-info-wordsonly {
@@ -70,26 +69,27 @@
     font-weight: lighter;
     text-align: center;
     width: 535px;
-    border: 3px solid yellow;
     padding: 3px;
   }
 
   .portfolio-info-wordsonly p {
     text-align: center;
+    color: #535460;
   }
   
   .portfolio-info-wordsonly span {
-    color: red;
+    color: #bf8589;
     font-weight: bold;
     font-size: 12px;
   }
 
   .github-link {
     text-decoration: none;
+    color: #bf8589;
   }
   
   #portfolio-item1 .portfolio-img {
-    background-image: url(/docs/coding-icons.png);
+    background-image: url(/docs/coding-clear.png);
     background-size: cover;
     background-position: center;
   }
@@ -101,7 +101,7 @@
   }
 
   #portfolio-item3 .portfolio-img {
-    background-image: url(/docs/);
+    background-image: url(/docs/leafy-background.jpeg);
     background-size: cover;
     background-position: center;
   }
