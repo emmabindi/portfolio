@@ -3,11 +3,10 @@ footer {
   left: 0;
   bottom: 0;
   width: 100%;
-  color: #84a2a3;
-  background-color: #fffff2;
+  background-color: #b0c3c3;
+  box-shadow: 5px 5px 5px #b0c3c3;
   font-family: 'Lato', sans-serif;
-  padding: 20px 30px 20px 30px;
-  border-top: 1px dashed #bf8589;
+  padding: 10px 30px 10px 30px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -25,5 +24,5 @@ footer {
 }
 
 .footer-words p {
-  color:#84a2a3;
+  color:#535460;
 }
