@@ -1,19 +1,10 @@
 .contactpage {
   width: 100vw;
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.grid {
+  height: 500px;
+  margin: 5px 0 5px 0;
   background-image: url(/design/kingproteas-opaque.png);
   background-position: center;
   background-size: cover;
-  margin-top: 555px;
-  margin-bottom: 80px;
-  width: 95vw;
-  height: 500px;
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -33,7 +24,6 @@ form {
   justify-content: center;
   align-items: center;
   width: 70vw;
-  grid-row: 1;
 }
 
 form h5 {
@@ -64,7 +54,7 @@ input {
 }
 
 textarea {
-  width: 370px;
+  width: 330px;
   height: 130px;
 }
 

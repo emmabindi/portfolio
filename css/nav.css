@@ -2,12 +2,12 @@ header {
   background-image: url(/docs/emma-bindi-looking-down-pano.jpeg);
   background-position: center;
   background-size: cover;
-  position: fixed;
+  /* position: fixed; */
   height: 450px;
   width: 100vw;
   top: 0;
   left: 0;
-  box-shadow: 2px 2px 5px #bf8589;
+  box-shadow: 5px 3px 5px #e2e9e9;
 }
 
 pagetitle {
