@@ -7,7 +7,9 @@
   justify-content: center;
   height: auto; 
   width: 100vw;
-  border: 2px solid red;
+  background-image: url(/design/);
+  background-position: center;
+  background-size: cover;
 }
 
 .interest-card {
@@ -16,7 +18,8 @@
   flex-direction: row;
   width: 550px;
   height: auto;
-  border: 2px solid yellow;
+  border-bottom: 1px dashed #bf8589;
+  padding-bottom: 15px;
   margin: 10px 10px;
 }
 
@@ -26,18 +29,18 @@
   justify-content: center;
   width: 540px;
   height: auto;
-  border: 2px solid green;
+  /* border: 2px solid green; */
 }
 
 .interest-title {
   font-size: 16px;
   font-weight: bold;
   text-align: center;
-  padding: 10px 0;
+  padding: 15px 0;
 }
 
 .interest-img {
-  border: 1px solid pink;
+  /* border: 1px solid pink; */
   border-radius: 5px;
   width: 290px;
   height: 200px;
@@ -52,6 +55,7 @@
   font-weight: lighter;
   text-align: center;
   width: 250px;
+  margin-left: 5px;
 }
 
 #interest1 .interest-img {

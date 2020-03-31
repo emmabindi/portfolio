@@ -20,7 +20,7 @@ img-container {
 }
 
 div.image {
-  background-image: url(./design/brick-wall.jpg);
+  background-image: url(./design/brick-wall-opaque.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
