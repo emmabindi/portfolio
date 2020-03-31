@@ -10,6 +10,16 @@ header {
   box-shadow: 2px 2px 5px #bf8589;
 }
 
+pagetitle {
+  font-family: 'Covered By Your Grace', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  letter-spacing: 1px;
+  color: #535460;
+}
+
 .nav-bar {
   display: flex;
   flex-direction: column;
@@ -25,14 +35,16 @@ header {
   background-color: #bf8589;
   border-radius: 2px;
   display: inline-block;
-  margin: 10px 15px;
+  margin: 8px 15px;
   padding: 3px 12px;
 }
 
 .nav-bar a{
   text-decoration: none;
   color: #fffff2;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Shadows into Light', sans-serif;
+  letter-spacing: 2px;
+  font-size: 17px;
 }
 
 .nav-bar li:hover {
