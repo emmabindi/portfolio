@@ -7,23 +7,13 @@
 
 blogpage {
   padding: 20px;
-  margin-top: 455px;
-  margin-bottom: 400px;
-  height: 100vh;
+  /* margin-top: 455px; */
+  margin-bottom: 70px;
+  height: auto;
   display: flex;
   flex-direction: row;
   background-color: #f0f4f4;
 }
-
-/* pagetitle {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 24px;
-  color: #535460;
-  padding: 15px 10px;
-} */
 
 bloglistcontainer {
   width: 180px;
@@ -47,11 +37,21 @@ bloglistcontainer h3 {
 .latest-posts-entry {
   color: #bf8589;
   font-size: 11px;
-  border: 1px dashed pink;
+  /* border: 1px dashed pink; */
   display: flex;
   justify-content: space-between;
   width: auto;
-  padding: 5px 5px;
+  padding: 15px 5px;
+  margin-bottom: 15px;
+}
+
+.latest-posts-entry:hover {
+  background-color:#84a2a3;
+  box-shadow: 2px 2px 5px #bf8589;
+}
+
+.latest-posts-entry:hover .blog-post-title{
+  color: white;
 }
 
 .blog-post-title {
@@ -63,7 +63,7 @@ bloglistcontainer h3 {
 
 blogpostcontainer {
   width: 100vw;
-  height: 100vh;
+  /* height: 100vh; */
   margin-left: 180px; 
 }
 
@@ -74,7 +74,6 @@ blogpostarticle {
   display: grid;
   grid-template-columns: 1.5fr 1fr;
   grid-template-rows: 3;
-  height: auto;
 }
 
 .post-img {

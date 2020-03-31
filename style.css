@@ -18,8 +18,7 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  margin-top: 475px;
-  margin-bottom: 100px;
+  margin: 10px 0 100px 0;
 }
 
 div.name {
@@ -33,7 +32,7 @@ div.name {
 
 div.name h1 {
   padding: 10px 0px;
-  font-family: 'Amatic SC', cursive;
+  font-family: 'Amatic SC', sans-serif;
   font-size: 100px;
   letter-spacing: 4px;
   color: #587274;
@@ -51,6 +50,6 @@ h6 {
 p {
   font-family: 'Open Sans', sans-serif;
   text-align: justify;
-  padding: 8px 15px;
+  padding: 8px 25px;
   color: #535460;
 }
