@@ -1,0 +1,107 @@
+  .portfoliopage {
+    margin-top: 245px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: auto; 
+    width: 100vw;
+    background-image: url();
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .portfolio-card {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 550px;
+    height: auto;
+    border-bottom: 1px dashed #bf8589;
+    padding-bottom: 15px;
+    margin: 10px 10px;
+  }
+  
+  .portfolio-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 540px;
+    height: auto;
+    border: 2px solid green;
+  }
+  
+  .portfolio-title {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    padding: 15px 0;
+  }
+
+  .portfolio-subtitle {
+    text-align: center;
+    padding: 5px;
+    color: red;
+  }
+  
+  .portfolio-img {
+    border: 1px solid pink;
+    border-radius: 5px;
+    width: 170px;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    margin: 5px;
+    justify-content: left;
+  }
+  
+  .portfolio-info {
+    font-size: 11px;
+    font-weight: lighter;
+    text-align: center;
+    width: 350px;
+    margin-left: 5px;
+    border: 3px solid yellow;
+  }
+
+  .portfolio-info-wordsonly {
+    font-size: 11px;
+    font-weight: lighter;
+    text-align: center;
+    width: 535px;
+    border: 3px solid yellow;
+    padding: 3px;
+  }
+
+  .portfolio-info-wordsonly li {
+    list-style-type: none;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .portfolio-info-wordsonly li span {
+    color: red;
+  }
+
+  .github-link {
+    text-decoration: none;
+  }
+  
+  #portfolio-item1 .portfolio-img {
+    background-image: url(/docs/coding-icons.png);
+    background-size: cover;
+    background-position: center;
+  }
+  
+  #portfolio-item2 .portfolio-img {
+    background-image: url(/docs/vino-suggest_sq.png);
+    background-size: cover;
+    background-position: center;
+  }
+
+  #portfolio-item3 .portfolio-img {
+    background-image: url(/docs/);
+    background-size: cover;
+    background-position: center;
+  }

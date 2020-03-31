@@ -3,7 +3,6 @@
   margin: 0px;
   box-sizing: border-box;
   font-family: 'Open Sans', sans-serif;
-  color: #535460;
 }
 
 blogpage {
@@ -13,7 +12,7 @@ blogpage {
   height: auto;
   display: flex;
   flex-direction: row;
-  /* background-color: ; it's white for now - want to update this */
+  background-color: white;
 }
 
 pagetitle {
@@ -27,7 +26,6 @@ pagetitle {
 }
 
 bloglistcontainer {
-  /* border: 2px solid yellow; */
   width: 180px;
   height: 100vh;
   display: flex;
