@@ -1,32 +1,31 @@
-.content {
-  margin-top: 205px;
-  margin-bottom: 100px;
-}
-
 header {
-  overflow: hidden; 
+  background-image: url(/docs/emma-bindi-looking-down-pano.jpeg);
+  background-position: center;
+  background-size: cover;
   position: fixed;
+  height: 450px;
+  width: 100vw;
   top: 0;
-  width: 100%;
-  background-color: #fffff2;
-  border-bottom: 1px dashed #bf8589;
+  left: 0;
+  box-shadow: 2px 2px 5px #bf8589;
 }
 
 .nav-bar {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end;
   width: 100vw;
-  height: 30px;
+  height: auto;
   margin: 10px 0;
   }
 
 .nav-bar li {
   list-style-type: none;
   background-color: #bf8589;
-  border-radius: 30px;
+  border-radius: 2px;
   display: inline-block;
-  margin: 0 5px;
+  margin: 10px 15px;
   padding: 3px 12px;
 }
 
