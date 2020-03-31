@@ -74,14 +74,14 @@
     padding: 3px;
   }
 
-  .portfolio-info-wordsonly li {
-    list-style-type: none;
-    justify-content: center;
-    align-items: center;
+  .portfolio-info-wordsonly p {
+    text-align: center;
   }
-
-  .portfolio-info-wordsonly li span {
+  
+  .portfolio-info-wordsonly span {
     color: red;
+    font-weight: bold;
+    font-size: 12px;
   }
 
   .github-link {
