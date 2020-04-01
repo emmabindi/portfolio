@@ -1,5 +1,4 @@
   .portfoliopage {
-    /* margin-top: 450px; */
     margin-bottom: 50px;
     padding-bottom: 50px;
     display: flex;
@@ -8,7 +7,6 @@
     justify-content: center;
     height: auto; 
     width: 100vw;
-    /* background-color: #eddedf;; */
     color: #535460;
   }
   
@@ -36,7 +34,6 @@
     font-size: 24px;
     letter-spacing: 1px;;
     font-family: 'Covered By Your Grace', sans-serif;
-    /* font-weight: lighter; */
     text-align: center;
     padding: 15px 0;
   }
