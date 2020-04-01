@@ -1,7 +1,7 @@
 /* The below inserts a background image for use throughout the site (every page) */
 
 header {
-  background-image: url(/docs/emma-bindi-looking-down-pano.jpeg);
+  background-image: url(/docs/em-white.JPG);
   background-position: center;
   background-size: cover;
   height: 450px;
