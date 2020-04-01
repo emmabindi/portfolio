@@ -1,36 +1,36 @@
 * {
   padding: 0px;
-  margin: 0px;
+  height: auto;
+  margin-bottom: 150px;
   box-sizing: border-box;
   font-family: 'Open Sans', sans-serif;
 }
 
 blogpage {
-  padding: 20px;
-  /* margin-top: 455px; */
-  margin-bottom: 80px;
-  height: auto;
+  padding-bottom: 950px;
   display: flex;
   flex-direction: row;
 }
 
+/* The below is the left fixed navigation bar which displays the blog post names for quick navigation. It ensures the menu continues to display with scroll movement. */
+
 bloglistcontainer {
   width: 180px;
-  height: 100%;
+  height: auto;
   top: 0;
   left: 0; 
   position: fixed;
-  margin-top: 455px;
+  margin-top: 465px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding: 20px 10px 30px 20px;
+  padding: 5px 5px 5px 5px;
   justify-content: flex-start;
 }
 
 bloglistcontainer h3 {
   font-size: 16px;
-  padding: 0 0 10px 0;
+  padding: 0 0 15px 5px;
 }
 
 .latest-posts-entry {
@@ -39,9 +39,11 @@ bloglistcontainer h3 {
   display: flex;
   justify-content: space-between;
   width: auto;
-  padding: 15px 5px;
+  padding: 5px 5px;
   margin-bottom: 15px;
 }
+
+/* The below code transforms the color of the box displaying the blog post name (with link) so that the user knows they are about to select that option */
 
 .latest-posts-entry:hover {
   background-color:#84a2a3;
@@ -57,12 +59,13 @@ bloglistcontainer h3 {
   color: black;
 }
 
-/* THE BELOW IS THE GRID FOR THE INDIV BLOG POSTS  */
+/* The below is the grid for blog posts article setup (so they all display alike and ensure title is on top, then date, image to the left and artile underneath. */
 
 blogpostcontainer {
   width: 100vw;
-  /* height: 100vh; */
+  height: 100vh;
   margin-left: 180px; 
+  margin-top: 20px;
 }
 
 blogpostarticle {
@@ -83,7 +86,7 @@ blogpostarticle {
   height: 150px;
   background-size: cover;
   background-position: center;
-  margin-top: 5px;
+  margin-top: 15px;
 }
 
 .post-title {
@@ -110,6 +113,8 @@ blogpostarticle {
   padding: 15px 0;
 }
 
+/* The below places the images onto the blog posts:  */
+
 #blogpost1 .post-img {
   background-image: url(/design/kingproteas.jpeg)
 }
@@ -130,27 +135,24 @@ blogpostarticle {
   background-image: url(/design/retromoped.jpg)
 }
 
-
-
-
-
-
+/* The below is the unique css for displaying on a mobile device  */
 
 @media only screen and (max-width: 600px) {
   * {
     padding: 0px;
-    margin: 0px;
+    height: auto;
+    margin-bottom: 150px;
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
   }
   
   blogpage {
     padding: 5px;
-    margin-bottom: 70px;
     margin-top: 110px;
     height: auto;
     display: flex;
     flex-direction: row;
+    padding-bottom: 150px;
   }
   
   bloglistcontainer {
@@ -196,12 +198,9 @@ blogpostarticle {
     text-decoration: none;
     color: black;
   }
-  
-  /* THE BELOW IS THE GRID FOR THE INDIV BLOG POSTS  */
-  
+    
   blogpostcontainer {
     width: 100vw;
-    /* height: 100vh; */
     margin-left: 110px; 
   }
   
