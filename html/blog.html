@@ -11,11 +11,13 @@
   <title>Blog</title>
 </head>
 <body>
+  
+<!-- This is the header/navigation bar component which displays the same on all pages: -->
+
   <header>
   <div class="name">
     <h1>emma bindi</h1>
     </div>
-    
       <ul class="nav-bar">
         <li class="menu-item"><a href="/index.html">Home</a></li>
         <li class="menu-item"><a href="/html/blog.html">Blog</a></li>  
@@ -23,36 +25,26 @@
         <li class="menu-item"><a href="/html/interests.html">Interests</a></li>
         <li class="menu-item"><a href="/html/contactme.html">Contact Me</a></li>
       </ul>
-
     <pagetitle>My Blog</pagetitle>
     </header>
 
   <blogpage>
   <bloglistcontainer>
     <h3>Blog List</h3>
-
-   <ul class="blog-list">
+      <ul class="blog-list">
 
     <!-- the below is the menu section with the blog title names - you can click on the link and it will (eventually) take you to that blog using the id# -->
 
-    <li class="latest-posts-entry"><a href="#blogpost1" class="blog-post-title">All About Flowers</a><div class="blog-post-date">30.03.2020</div></li>
-
-    <li class="latest-posts-entry"><a href="#blogpost2" class="blog-post-title">Favourite Bicycles</a><div class="blog-post-date">01.04.2020</div></li>
-
-    <li class="latest-posts-entry"><a href="#blogpost3" class="blog-post-title">Bicycle Adventures</a><div class="blog-post-date">02.04.2020</div></li>
-
-    <li class="latest-posts-entry"><a href="#blogpost4" class="blog-post-title">Faded Brickwork</a><div class="blog-post-date">03.04.2020</div></li>
-
-    <li class="latest-posts-entry"><a href="#blogpost5" class="blog-post-title">That Retro Scooter</a><div class="blog-post-date">04.04.2020</div></li>
-
-   </ul>
-
-  </bloglistcontainer>
-
-
-
-  <!-- THIS IS THE BLOG POSTS -->
+      <li class="latest-posts-entry"><a href="#blogpost1" class="blog-post-title">All About Flowers</a><div class="blog-post-date">30.03.2020</div></li>
+      <li class="latest-posts-entry"><a href="#blogpost2" class="blog-post-title">Favourite Bicycles</a><div class="blog-post-date">01.04.2020</div></li>
+      <li class="latest-posts-entry"><a href="#blogpost3" class="blog-post-title">Bicycle Adventures</a><div class="blog-post-date">02.04.2020</div></li>
+      <li class="latest-posts-entry"><a href="#blogpost4" class="blog-post-title">Faded Brickwork</a><div class="blog-post-date">03.04.2020</div></li>
+      <li class="latest-posts-entry"><a href="#blogpost5" class="blog-post-title">That Retro Scooter</a><div class="blog-post-date">04.04.2020</div></li>
+    </ul>
+    </bloglistcontainer>
   <blogpostcontainer>
+
+  <!-- The below is the component template for the blog post setup, so they all display alike and ensure title is on top, date underneath with image to the left and article details underneath -->
 
   <blogpostarticle id="blogpost1">
     <div class="post-img"></div>
@@ -88,25 +80,19 @@
     <div class="post-date">04.04.2020</div>
     <div class="article">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt minima voluptates ipsam dolorum id ut quibusdam vero consequuntur eligendi esse, cum illum laboriosam animi ea molestias commodi! Possimus, saepe ratione atque dolores officia quas recusandae numquam? Possimus repellendus accusamus fuga nihil deserunt impedit harum officiis fugiat dignissimos deleniti, veritatis dolorem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi praesentium atque temporibus doloribus quae pariatur labore? Nam nulla esse molestiae minus soluta ex labore modi. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam sed autem labore, hic expedita a, modi vero, iure tempore incidunt blanditiis accusamus inventore eaque quas. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis, fuga necessitatibus neque dolorum voluptatem, tenetur vitae numquam quia doloribus exercitationem, nobis illo commodi vero unde non animi iusto laudantium. Ratione.</div>
   </blogpostarticle>
-
   </blogpostcontainer>
-
 </blogpage>
 
-  <footer>
+<!-- This is the footer component which displays the same on all pages: -->
 
+  <footer>
     <div class="footer-logos">
-  
       <a href="https://www.linkedin.com/in/emma-bindi-8bbb591a2"><i class="fab fa-linkedin"></i></a>
-  
       <a href="https://github.com/emmabindi"><i class="fab fa-github-square"></i></a>
     </div>
-  
     <div class="footer-words">
       <p>Created by Emma Bindi. 2020</p>
     </div>
-  
   </footer>
-
 </body>
 </html>

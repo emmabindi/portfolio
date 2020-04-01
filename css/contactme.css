@@ -1,3 +1,5 @@
+/* The below sets up the page container to allow for FlexBox styling of the child elements (the form components) */
+
 .contactpage {
   margin-bottom: 50px;
   padding-bottom: 10px;
@@ -19,16 +21,12 @@ h3 {
 form {
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
   align-items: center;
   width: 100vw;
   height: 60%;
   padding-right: 30px;
   margin-right: 50px;
   margin-left: -90px;
-  /* background-image: url(/design/kingproteas-opaque.png);
-  background-position: center;
-  background-size: cover; */
 }
 
 form h5 {
@@ -87,6 +85,7 @@ button:hover {
 
 
 
+/* The below is the unique css for displaying on a mobile device  */
 
 
 @media only screen and (max-width: 600px) {

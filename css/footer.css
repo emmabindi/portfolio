@@ -1,3 +1,5 @@
+/* The below is class styling for the logos (linkedin & github). I used the icons from the Font Awesome library and changed the color to suit my pallette  */
+
 footer {
   position: fixed;
   left: 0;
@@ -19,15 +21,17 @@ footer {
   color: #535460;
 }
 
-.footer-logos a:hover {
-  opacity: 0.5;
-}
-
 .footer-words p {
   color:#535460;
 }
 
-/* ------ MEDIA RESPONSIVENESS ----- */
+/* The below code transforms the color of the box displaying the footer item link so that the user knows they are about to select that option */
+
+.footer-logos a:hover {
+  opacity: 0.5;
+}
+
+/* The below is the unique css for displaying on a mobile device  */
 
 @media only screen and (max-width: 600px) {
   footer {
