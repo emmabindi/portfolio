@@ -11,7 +11,7 @@
 }
 
 h3 {
-  color: #535460;
+  color: #8c8c8c;
   text-align: center;
   font-size: 24px;
   font-family: 'Lato', sans-serif;
@@ -31,7 +31,7 @@ form {
 
 form h5 {
   font-family: 'Kristi', cursive;
-  color: #84a2a3;
+  color: #8c8c8c;
   font-size: 58px;
   letter-spacing: 5px;
   padding-bottom: 10px;
@@ -43,7 +43,7 @@ form h5 {
 }
 
 form label {
-  color: #535460;
+  color: #8c8c8c;
   font-family: 'Open Sans', sans-serif;
   margin: 12px 0px;
   width: 180px;
@@ -68,7 +68,7 @@ button {
   height: auto;
   margin-left: 160px;
   margin-bottom: 20px;
-  background:#bf8589;
+  background:#e6e6e6;
   font-family: 'Shadows into Light', sans-serif;
   letter-spacing: 2px;
   color: white;
@@ -77,8 +77,8 @@ button {
 }
 
 button:hover {
-  background-color:#84a2a3;
-  box-shadow: 2px 2px 5px #bf8589;
+  background-color:#808080;
+  box-shadow: 2px 2px 5px #f2f2f2;
 } 
 
 
@@ -96,11 +96,11 @@ button:hover {
     justify-content: center;
     height: auto;
     width: auto;
-    background-color: #f6eeef;
+    background-color: white;
   }
   
   h3 {
-    color: #535460;
+    color: #999999;
     text-align: center;
     font-size: 24px;
     font-family: 'Lato', sans-serif;
@@ -115,12 +115,11 @@ button:hover {
     width: 100vw;
     height: 90%;
     margin-left: 0px;
-    background-color: #f6eeef;
   }
   
   form h5 {
     font-family: 'Kristi', cursive;
-    color: #84a2a3;
+    color: #595959;
     font-size: 32px;
     letter-spacing: 5px;
     padding-bottom: 10px;
@@ -132,7 +131,7 @@ button:hover {
   }
   
   form label {
-    color: #535460;
+    color: #595959;
     font-family: 'Open Sans', sans-serif;
     margin: 12px 0px;
     width: 120px;
@@ -158,17 +157,17 @@ button:hover {
     height: auto;
     margin-left: 80px;
     margin-bottom: 20px;
-    background:#bf8589;
+    background:white;
     font-family: 'Shadows into Light', sans-serif;
     letter-spacing: 2px;
-    color: white;
+    color: black;
     border-radius: 1px;
     font-size: 11px;
   }
   
   button:hover {
-    background-color:#84a2a3;
-    box-shadow: 2px 2px 5px #bf8589;
+    background-color:#999999;
+    box-shadow: 2px 2px 5px #999999;
   } 
 }
     

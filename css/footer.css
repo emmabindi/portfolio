@@ -5,7 +5,7 @@ footer {
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: #e2e9e9;
+  background-color: #d9d9d9;
   font-family: 'Lato', sans-serif;
   padding: 7px 30px 7px 30px;
   display: flex;
@@ -18,11 +18,11 @@ footer {
   padding-right: 20px;
   justify-content: left;
   font-size: 38px;
-  color: #535460;
+  color: #666666;
 }
 
 .footer-words p {
-  color:#535460;
+  color:#666666;
 }
 
 /* The below code transforms the color of the box displaying the footer item link so that the user knows they are about to select that option */
@@ -39,7 +39,7 @@ footer {
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: #e2e9e9;
+    background-color: light-grey;
     font-family: 'Lato', sans-serif;
     padding: 5px 5px 5px 5px;
     display: flex;
@@ -53,7 +53,7 @@ footer {
     padding-right: 10px;
     justify-content: left;
     font-size: 24px;
-    color: #535460;
+    color: #666666;
   }
   
   .footer-logos a:hover {
@@ -61,7 +61,7 @@ footer {
   }
   
   .footer-words p {
-    color:#535460;
+    color:#666666;
     font-size: 8px;
     margin-right: 20px;
   }

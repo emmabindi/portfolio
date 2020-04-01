@@ -18,7 +18,7 @@
   flex-direction: row;
   width: 550px;
   height: auto;
-  border-bottom: 1px dashed #bf8589;
+  border-bottom: 1px dashed darkgrey;
   padding-bottom: 15px;
   margin: 10px 10px;
 }
@@ -115,7 +115,7 @@
     flex-direction: row;
     width: auto;
     height: auto;
-    border-bottom: 1px dashed #bf8589;
+    border-bottom: 1px dashed darkgrey;
     padding-bottom: 15px;
     margin: 10px 10px;
   }

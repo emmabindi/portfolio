@@ -8,7 +8,7 @@ header {
   width: 100vw;
   top: 0;
   left: 0;
-  box-shadow: 5px 3px 5px #e2e9e9;
+  box-shadow: 5px 3px 5px #595959;
 }
 
 /* The below styles the page title class item so that it displays the same in all instances of use throughout the site */
@@ -20,7 +20,7 @@ pagetitle {
   align-items: center;
   font-size: 30px;
   letter-spacing: 1px;
-  color: #535460;
+  color: #333333;
 }
 
 /* The below styles the navigation bar class items so that the buttons display the same in all instances of use throughout the site (every page) */
@@ -37,7 +37,7 @@ pagetitle {
 
 .nav-bar li {
   list-style-type: none;
-  background-color: #bf8589;
+  background-color: #595959;
   border-radius: 2px;
   display: inline-block;
   margin: 8px 15px;
@@ -55,8 +55,8 @@ pagetitle {
 /* The below code transforms the color of the box displaying the menu item name (with link) so that the user knows they are about to select that option */
 
 .nav-bar li:hover {
-  background-color:#84a2a3;
-  box-shadow: 2px 2px 5px #bf8589;
+  background-color: black;
+  box-shadow: 2px 2px 5px #595959;
 }
 
 /* The below is the unique css for displaying on a mobile device  */
@@ -67,7 +67,7 @@ pagetitle {
     width: 100vw;
     top: 0;
     left: 0;
-    box-shadow: 5px 3px 5px #e2e9e9;
+    box-shadow: 5px 3px 5px #595959;
   }
   
   pagetitle {
@@ -77,8 +77,8 @@ pagetitle {
     align-items: center;
     font-size: 20px;
     letter-spacing: 1px;
-    color: #535460;
-    border: 1px dashed pink;
+    color: #333333;
+    border: 1px dashed #595959;
   }
   
   li.menu-item {
@@ -93,12 +93,12 @@ pagetitle {
     margin-top: 120px;
     width: 100vw;
     height: 60px;
-    background-color: #e2e9e9;
+    background-color: lightgrey;
     }
   
   .nav-bar li {
     list-style-type: none;
-    background-color: #bf8589;
+    background-color: #595959;
     border-radius: 2px;
     height: auto;
     width: auto;
@@ -114,7 +114,7 @@ pagetitle {
   }
   
   .nav-bar li:hover {
-    background-color:#84a2a3;
-    box-shadow: 2px 2px 5px #bf8589;
+    background-color: black;
+    box-shadow: 2px 2px 5px #595959;
   }
 }

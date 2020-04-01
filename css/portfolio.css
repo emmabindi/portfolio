@@ -9,7 +9,7 @@
     justify-content: center;
     height: auto; 
     width: 100vw;
-    color: #535460;
+    color: #333333;
   }
   
   /* The below is the class styling for the portfolio cards, they all display alike. */
@@ -22,8 +22,8 @@
     height: auto;
     padding-bottom: 15px;
     margin: 10px 10px;
-    background-color: #f5f1ef;
-    box-shadow: 3px 3px 3px 3px #dbd0d0;
+    background-color: #f2f2f2;
+    box-shadow: 3px 3px 3px 3px lightgrey;
   }
   
   .portfolio-bottom {
@@ -81,14 +81,14 @@
   }
   
   .portfolio-info-wordsonly span {
-    color: #bf8589;
+    color: #333333;
     font-weight: bold;
     font-size: 12.5px;
   }
 
   .github-link {
     text-decoration: none;
-    color: #bf8589;
+    color: #333333;
   }
   
   #portfolio-item1 .portfolio-img {
@@ -131,7 +131,7 @@
       height: auto;
       padding-bottom: 5px;
       margin: 5px 5px;
-      background-color: #f5f1ef;
+      background-color: #f2f2f2;
       box-shadow: 1px 1px 1px 1px #dbd0d0;
     }
     
@@ -189,14 +189,14 @@
     }
     
     .portfolio-info-wordsonly span {
-      color: #bf8589;
+      color: #333333;
       font-weight: bold;
       font-size: 12.5px;
     }
   
     .github-link {
       text-decoration: none;
-      color: #bf8589;
+      color: #333333;
     }
     
     #portfolio-item1 .portfolio-img {
