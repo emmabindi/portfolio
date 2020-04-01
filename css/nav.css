@@ -59,9 +59,6 @@ pagetitle {
 
 @media only screen and (max-width: 600px) {
   header {
-    background-image: url(/docs/emma-bindi-looking-down-pano.jpeg);
-    background-position: center;
-    background-size: cover;
     height: 170px;
     width: 100vw;
     top: 0;

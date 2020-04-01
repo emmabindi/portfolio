@@ -110,7 +110,7 @@
     display: flex;
     justify-content: space-between;
     flex-direction: row;
-    width: 100%;
+    width: auto;
     height: auto;
     border-bottom: 1px dashed #bf8589;
     padding-bottom: 15px;
@@ -143,7 +143,7 @@
   }
   
   .interest-info {
-    font-size: 9.5px;
+    font-size: 10px;
     font-weight: lighter;
     text-align: center;
     width: 190px;
