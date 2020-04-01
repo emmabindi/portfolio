@@ -1,5 +1,4 @@
 .interestspage {
-  /* margin-top: 460px; */
   margin-bottom: 80px;
   display: flex;
   flex-direction: row;
@@ -7,9 +6,6 @@
   justify-content: center;
   height: auto; 
   width: 100vw;
-  background-image: url(/design/);
-  background-position: center;
-  background-size: cover;
 }
 
 .interest-card {
@@ -90,4 +86,67 @@
   background-image: url(/design/me-reading-gone-girl.png);
   background-size: cover;
   background-position: center;
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+  .interestspage {
+    margin-bottom: 80px;
+    margin-top: 110px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: auto; 
+    width: 100vw;
+  }
+  
+  .interest-card {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+    border-bottom: 1px dashed #bf8589;
+    padding-bottom: 15px;
+    margin: 10px 10px;
+  }
+  
+  .interest-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+  }
+  
+  .interest-title {
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    padding: 15px 0;
+  }
+  
+  .interest-img {
+    border-radius: 5px;
+    width: 150px;
+    height: 100px;
+    background-size: cover;
+    background-position: center;
+    margin: 2px;
+    justify-content: left;
+  }
+  
+  .interest-info {
+    font-size: 9.5px;
+    font-weight: lighter;
+    text-align: center;
+    width: 190px;
+    margin-left: 4px;
+  }
 }
