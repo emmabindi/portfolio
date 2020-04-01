@@ -154,7 +154,7 @@ blogpostarticle {
     height: auto;
     display: flex;
     flex-direction: row;
-    padding-bottom: 150px;
+    padding-bottom: 50px;
   }
   
   bloglistcontainer {
@@ -203,6 +203,7 @@ blogpostarticle {
     
   blogpostcontainer {
     width: 100vw;
+    height: auto;
     margin-left: 110px; 
   }
   
