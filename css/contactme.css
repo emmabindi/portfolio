@@ -23,7 +23,7 @@ form {
   flex-direction: column;
   align-items: center;
   width: 100vw;
-  height: 60%;
+  height: 80%;
   padding-right: 30px;
   margin-right: 50px;
   margin-left: -90px;
@@ -56,11 +56,13 @@ form p {
 input {
   width: 350px;
   height: 40px;
+  background-color: #f6eeef;
 }
 
 textarea {
   width: 350px;
   height: 150px;
+  background-color: #f6eeef;
 }
 
 button {
@@ -112,7 +114,7 @@ button:hover {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 100vw;
+    width: 100%;
     height: 90%;
     margin-left: 0px;
     background-color: #f6eeef;
@@ -171,4 +173,3 @@ button:hover {
     box-shadow: 2px 2px 5px #bf8589;
   } 
 }
-    
