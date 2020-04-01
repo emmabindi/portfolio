@@ -1,14 +1,12 @@
 .contactpage {
-  width: 100vw;
-  height: 50vh;
-  margin: 5px 0 5px 0;
-  margin-bottom: 150px;
-  padding-bottom: 150px;
+  margin-bottom: 50px;
+  padding-bottom: 10px;
   display: flex;
   align-items: flex-start;
   justify-content: center;
-  background-color: blue;
-  border: 1px solid green;
+
+  height: auto;
+  width: 100vw;
 }
 
 h3 {
@@ -19,29 +17,19 @@ h3 {
   padding: 15px 10px;
 }
 
-.form-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  /* margin-top: 100px; */
-  height: 50vh;
-  width: 100vw;
-  background-color: yellow;
-}
-
 form {
   display: flex;
   flex-direction: column;
   /* justify-content: center; */
   align-items: center;
-  width: 95vw;
-  height: 65vh;
-  padding-right: 120px;
+  width: 100vw;
+  height: 60%;
+  padding-right: 30px;
+  margin-right: 50px;
+  margin-left: -90px;
   /* background-image: url(/design/kingproteas-opaque.png);
   background-position: center;
   background-size: cover; */
-  border: 1px solid red;
-  background-color: pink;
 }
 
 form h5 {
@@ -50,8 +38,11 @@ form h5 {
   font-size: 58px;
   letter-spacing: 5px;
   padding-bottom: 10px;
+  padding-right: 60px;
   margin-top: 20px;
-  margin-left: 70px;
+  margin-left: 165px;
+  width: 350px;  
+  text-align: right;
 }
 
 form label {
@@ -66,20 +57,29 @@ form p {
 }
 
 input {
-  width: 330px;
-  height: 30px;
+  width: 350px;
+  height: 40px;
 }
 
 textarea {
-  width: 330px;
-  height: 130px;
+  width: 350px;
+  height: 150px;
 }
 
 button {
   width: 80px;
   height: auto;
-  background:#535460;
+  margin-left: 160px;
+  margin-bottom: 20px;
+  background:#bf8589;
+  font-family: 'Shadows into Light', sans-serif;
+  letter-spacing: 2px;
   color: white;
   border-radius: 1px;
   font-size: 18px;
 }
+
+button:hover {
+  background-color:#84a2a3;
+  box-shadow: 2px 2px 5px #bf8589;
+} 
