@@ -1,3 +1,5 @@
+  /* The below sets up the page container to allow for FlexBox styling of the child elements (the portfolio components) */
+  
   .portfoliopage {
     margin-bottom: 50px;
     padding-bottom: 50px;
@@ -10,6 +12,8 @@
     color: #535460;
   }
   
+  /* The below is the class styling for the portfolio cards, they all display alike. */
+
   .portfolio-card {
     display: flex;
     justify-content: space-between;
@@ -105,6 +109,7 @@
     background-position: center;
   }
 
+/* The below is the unique css for displaying on a mobile device  */
 
   @media only screen and (max-width: 600px) {
     .portfoliopage {

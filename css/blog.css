@@ -6,6 +6,8 @@
   font-family: 'Open Sans', sans-serif;
 }
 
+/* The below sets up the page container to allow for FlexBox styling of the child elements (the blog posts and menu components) */
+
 blogpage {
   padding-bottom: 950px;
   display: flex;
@@ -59,7 +61,7 @@ bloglistcontainer h3 {
   color: black;
 }
 
-/* The below is the grid for blog posts article setup (so they all display alike and ensure title is on top, then date, image to the left and artile underneath. */
+/* The below is the grid for blog posts article setup (so they all display alike and ensure title is on top, then date, image to the left and artile underneath.   */
 
 blogpostcontainer {
   width: 100vw;

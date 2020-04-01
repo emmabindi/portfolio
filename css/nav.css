@@ -1,3 +1,5 @@
+/* The below inserts a background image for use throughout the site (every page) */
+
 header {
   background-image: url(/docs/emma-bindi-looking-down-pano.jpeg);
   background-position: center;
@@ -9,6 +11,8 @@ header {
   box-shadow: 5px 3px 5px #e2e9e9;
 }
 
+/* The below styles the page title class item so that it displays the same in all instances of use throughout the site */
+
 pagetitle {
   font-family: 'Covered By Your Grace', sans-serif;
   display: flex;
@@ -18,6 +22,8 @@ pagetitle {
   letter-spacing: 1px;
   color: #535460;
 }
+
+/* The below styles the navigation bar class items so that the buttons display the same in all instances of use throughout the site (every page) */
 
 .nav-bar {
   display: flex;
@@ -46,16 +52,14 @@ pagetitle {
   font-size: 17px;
 }
 
+/* The below code transforms the color of the box displaying the menu item name (with link) so that the user knows they are about to select that option */
+
 .nav-bar li:hover {
   background-color:#84a2a3;
   box-shadow: 2px 2px 5px #bf8589;
 }
 
-
-
-
-
-
+/* The below is the unique css for displaying on a mobile device  */
 
 @media only screen and (max-width: 600px) {
   header {
@@ -90,7 +94,6 @@ pagetitle {
     width: 100vw;
     height: 60px;
     background-color: #e2e9e9;
-
     }
   
   .nav-bar li {
@@ -114,5 +117,4 @@ pagetitle {
     background-color:#84a2a3;
     box-shadow: 2px 2px 5px #bf8589;
   }
-  
 }
