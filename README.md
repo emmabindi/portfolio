@@ -134,6 +134,10 @@ I chose these themes, and colors or images which matched these as I believe they
 
 It was important for me to include a feminine touch and not shy away from softer features or colors including pink, as I strongly believe and hope that women in tech can feel at home being themselves and displaying an alternative appearance to the very prevalent edgy / masculine / cutting edge / futuristic themes we frequently see in web design. 
 
+**Initial Mood Board**
+
+![MoodBoard](design/Portfolio-Mood-Board.jpg)
+
 ## **Wireframes & Mockups**
 
 Prior to commencing the coding and development of my website, I spent a lot of time considering the desired layout for each page including location of navigation bars, hero text and images. I used Balsamiq Wireframes application to carry this out. 
