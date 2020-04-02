@@ -26,6 +26,8 @@
   margin: 50px 50px 100px 50px;
 }
 
+/* The below is a container for the website hero text (my name) */
+
 div.name {
   width: 100%;
   height: 120px;
@@ -35,6 +37,8 @@ div.name {
   padding-right: 15px;
 }
 
+/* The below styles the text of the hero title (my name) */
+
 div.name h1 {
   padding: 10px 0px;
   font-family: 'Amatic SC', sans-serif;
@@ -42,6 +46,8 @@ div.name h1 {
   letter-spacing: 4px;
   color: #587274;
 }
+
+/* The below creates styling for the different text elements in the website so all pages display consistently and it is efficient and easy to change styling  */
 
 h6 {
   font-size: 20px;

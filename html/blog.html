@@ -15,15 +15,17 @@
 <!-- This is the header/navigation bar component which displays the same on all pages: -->
 
   <header>
+    <!-- This is the container for the website's hero text (my name)  -->
   <div class="name">
     <h1>emma bindi</h1>
+    <!-- This is the container and list which holds the nav bar links and classes them together -->
     </div>
       <ul class="nav-bar">
-        <li class="menu-item"><a href="/index.html">Home</a></li>
-        <li class="menu-item"><a href="/html/blog.html">Blog</a></li>  
-        <li class="menu-item"><a href="/html/portfolio.html">Portfolio</a></li>
-        <li class="menu-item"><a href="/html/interests.html">Interests</a></li>
-        <li class="menu-item"><a href="/html/contactme.html">Contact Me</a></li>
+        <li class="menu-item"><a href="/index.html" title="Home">Home</a></li>
+        <li class="menu-item"><a href="/html/blog.html" title="Blog">Blog</a></li>  
+        <li class="menu-item"><a href="/html/portfolio.html" title="Portfolio">Portfolio</a></li>
+        <li class="menu-item"><a href="/html/interests.html" title="Interests & Hobbies">Interests</a></li>
+        <li class="menu-item"><a href="/html/contactme.html" title="Contact Page">Contact Me</a></li>
       </ul>
     <pagetitle>My Blog</pagetitle>
     </header>
@@ -35,11 +37,11 @@
 
     <!-- the below is the menu section with the blog title names - you can click on the link and it will (eventually) take you to that blog using the id# -->
 
-      <li class="latest-posts-entry"><a href="#blogpost1" class="blog-post-title">All About Flowers</a><div class="blog-post-date">30.03.2020</div></li>
-      <li class="latest-posts-entry"><a href="#blogpost2" class="blog-post-title">Favourite Bicycles</a><div class="blog-post-date">01.04.2020</div></li>
-      <li class="latest-posts-entry"><a href="#blogpost3" class="blog-post-title">Bicycle Adventures</a><div class="blog-post-date">02.04.2020</div></li>
-      <li class="latest-posts-entry"><a href="#blogpost4" class="blog-post-title">Faded Brickwork</a><div class="blog-post-date">03.04.2020</div></li>
-      <li class="latest-posts-entry"><a href="#blogpost5" class="blog-post-title">That Retro Scooter</a><div class="blog-post-date">04.04.2020</div></li>
+      <li class="latest-posts-entry"><a href="#blogpost1" title="Blog Post 1" class="blog-post-title">All About Flowers</a><div class="blog-post-date">30.03.2020</div></li>
+      <li class="latest-posts-entry"><a href="#blogpost2" title="Blog Post 2" class="blog-post-title">Favourite Bicycles</a><div class="blog-post-date">01.04.2020</div></li>
+      <li class="latest-posts-entry"><a href="#blogpost3" title="Blog Post 3" class="blog-post-title">Bicycle Adventures</a><div class="blog-post-date">02.04.2020</div></li>
+      <li class="latest-posts-entry"><a href="#blogpost4" title="Blog Post 4" class="blog-post-title">Faded Brickwork</a><div class="blog-post-date">03.04.2020</div></li>
+      <li class="latest-posts-entry"><a href="#blogpost5" title="Blog Post 5" class="blog-post-title">That Retro Scooter</a><div class="blog-post-date">04.04.2020</div></li>
     </ul>
     </bloglistcontainer>
   <blogpostcontainer>
@@ -84,11 +86,12 @@
 </blogpage>
 
 <!-- This is the footer component which displays the same on all pages: -->
+  <!-- the below classes setup the logo and include the web link for linkedin & github. I used the icons from the Font Awesome library which has been linked.  -->
 
   <footer>
     <div class="footer-logos">
-      <a href="https://www.linkedin.com/in/emma-bindi-8bbb591a2"><i class="fab fa-linkedin"></i></a>
-      <a href="https://github.com/emmabindi"><i class="fab fa-github-square"></i></a>
+      <a href="https://www.linkedin.com/in/emma-bindi-8bbb591a2" title="Linkedin"><i class="fab fa-linkedin"></i></a>
+      <a href="https://github.com/emmabindi" title="Github"><i class="fab fa-github-square"></i></a>
     </div>
     <div class="footer-words">
       <p>Created by Emma Bindi. 2020</p>

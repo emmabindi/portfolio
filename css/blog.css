@@ -118,7 +118,7 @@ blogpostarticle {
 /* The below places the images onto the blog posts:  */
 
 #blogpost1 .post-img {
-  background-image: url(/design/kingproteas.jpeg)
+  background-image: url(/design/kingproteas-opaque.png)
 }
 
 #blogpost2 .post-img {
@@ -126,11 +126,11 @@ blogpostarticle {
 }
 
 #blogpost3 .post-img {
-  background-image: url(/design/whitebike.jpg)
+  background-image: url(/design/whitebike.jpg) 
 }
 
 #blogpost4 .post-img {
-  background-image: url(/design/scratchedpinkbackground.jpg)
+  background-image: url(/design/scratchedpinkbackground-opaque.png)
 }
 
 #blogpost5 .post-img {

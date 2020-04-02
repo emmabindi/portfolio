@@ -104,7 +104,7 @@
   }
 
   #portfolio-item3 .portfolio-img {
-    background-image: url(/docs/leafy-background.jpeg);
+    background-image: url(/docs/EBhomepage.png);
     background-size: cover;
     background-position: center;
   }
@@ -197,23 +197,5 @@
     .github-link {
       text-decoration: none;
       color: #bf8589;
-    }
-    
-    #portfolio-item1 .portfolio-img {
-      background-image: url(/docs/coding-clear.png);
-      background-size: cover;
-      background-position: center;
-    }
-    
-    #portfolio-item2 .portfolio-img {
-      background-image: url(/docs/vino-suggest_sq.png);
-      background-size: cover;
-      background-position: center;
-    }
-  
-    #portfolio-item3 .portfolio-img {
-      background-image: url(/docs/leafy-background.jpeg);
-      background-size: cover;
-      background-position: center;
     }
   }

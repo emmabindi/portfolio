@@ -35,6 +35,9 @@ pagetitle {
   margin: 10px 0;
   }
 
+
+  /* The below styles each item in the navigation menu (as button components) */
+
 .nav-bar li {
   list-style-type: none;
   background-color: #bf8589;
@@ -43,6 +46,8 @@ pagetitle {
   margin: 8px 15px;
   padding: 3px 12px;
 }
+
+  /* The below styles the text of each item of the navigation menu (as button components) */
 
 .nav-bar a{
   text-decoration: none;
