@@ -71,7 +71,7 @@
     font-size: 12px;
     font-weight: lighter;
     text-align: center;
-    width: 535px;
+    width: 540px;
     padding: 3px;
   }
 
@@ -104,7 +104,7 @@
   }
 
   #portfolio-item3 .portfolio-img {
-    background-image: url(/docs/EBhomepage.png);
+    background-image: url(/docs/wireframes/HomePage.png);
     background-size: cover;
     background-position: center;
   }
