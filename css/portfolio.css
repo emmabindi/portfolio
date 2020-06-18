@@ -18,7 +18,7 @@
     display: flex;
     justify-content: space-between;
     flex-direction: row;
-    width: 600px;
+    width: 580px;
     height: auto;
     padding-bottom: 15px;
     margin: 10px 10px;
@@ -73,11 +73,13 @@
     text-align: center;
     width: 540px;
     padding: 3px;
+    margin-left: 15px;
   }
 
   .portfolio-info-wordsonly p {
     text-align: center;
     color: #535460;
+    margin-left: 5px;
   }
   
   .portfolio-info-wordsonly span {
@@ -91,12 +93,25 @@
     color: #bf8589;
   }
   
-  #portfolio-item1 .portfolio-img {
-    background-image: url(/docs/coding-clear.png);
+  #portfolio-item1front .portfolio-img {
+    background-image: url(/docs/htmlcssjs.png);
+    background-size: cover;
+    background-position: center;
+  }
+
+    
+  #portfolio-item1back .portfolio-img {
+    background-image: url(/docs/git_ruby.png);
     background-size: cover;
     background-position: center;
   }
   
+  #portfolio-item2a .portfolio-img {
+    background-image: url(/docs/Localvore.jpeg);
+    background-size: cover;
+    background-position: center;
+  }
+
   #portfolio-item2 .portfolio-img {
     background-image: url(/docs/vino-suggest_sq.png);
     background-size: cover;
