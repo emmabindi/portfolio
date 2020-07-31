@@ -1,12 +1,17 @@
 /* The below is class styling for the logos (linkedin & github). I used the icons from the Font Awesome library and changed the color to suit my pallette  */
 
 footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
+  /* position: fixed; */
+  /* left: 0; */
+  /* bottom: 0; */
   width: 100%;
-  background-color: #e2e9e9;
+  height: 50px;
+  background-color: white;
   font-family: 'Lato', sans-serif;
+/* make sticky */
+  flex-shrink: 0;
+
+  /* contents of footer: */
   padding: 7px 30px 7px 30px;
   display: flex;
   justify-content: space-between;
@@ -35,11 +40,8 @@ footer {
 
 @media only screen and (max-width: 600px) {
   footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
     width: 100%;
-    background-color: #e2e9e9;
+    background-color: white;
     font-family: 'Lato', sans-serif;
     padding: 5px 5px 5px 5px;
     display: flex;

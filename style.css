@@ -1,12 +1,8 @@
-/* The below imports the stylesheets for all pages to link the entire site. It also imports custom fonts from Google. */
-
-@import "css/nav.css"; 
-@import "css/blog.css";
 @import "css/footer.css";
-@import "css/contactme.css";
-@import "css/interests.css";
-@import "css/portfolio.css";
-@import url('https://fonts.googleapis.com/css?family=Kristi|Lato|Shadows+Into+Light|Covered+By+Your+Grace|Amatic+SC|Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway&display=swap');
+
+/* font-family: 'Open Sans', sans-serif;
+font-family: 'Raleway', sans-serif; */
 
 * {
   padding: 0px;
@@ -14,106 +10,53 @@
   box-sizing: border-box;
 }
 
-/* The below sets up the page container to allow for FlexBox styling of the child elements (the heading / websigte name and text elements) */
+body {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.beach {
+  text-align: center;
+  background-color: #464646;
+  background-image: url(/docs/bunker_bay2.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 1100px;
+  opacity: 0.7;
+}
+
+.name {
+  font-family: 'Raleway', sans-serif;
+  font-size: 40px;
+}
+
+#navbar {
+  overflow: hidden;
+  background-color: white;
+}
+
+#navbar a {
+  text-decoration: none;
+  float: right;
+  display: block;
+  text-align: center;
+  padding: 15px;
+} 
 
 .content {
-  width: auto;
-  height: auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  margin: 50px 50px 100px 50px;
+  /* padding-bottom: 55px; */
+  flex: 1 0 auto;
+  padding: 20px;
 }
 
-/* The below is a container for the website hero text (my name) */
-
-div.name {
+.sticky {
+  position: fixed;
+  top: 0;
   width: 100%;
-  height: 120px;
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  padding-right: 15px;
 }
 
-/* The below styles the text of the hero title (my name) */
-
-div.name h1 {
-  padding: 10px 0px;
-  font-family: 'Amatic SC', sans-serif;
-  font-size: 100px;
-  letter-spacing: 4px;
-  color: #587274;
-}
-
-/* The below creates styling for the different text elements in the website so all pages display consistently and it is efficient and easy to change styling  */
-
-h6 {
-  font-size: 20px;
-  font-family: 'Shadows into Light', cursive;
-  padding: 0 0 10px 0;
-  letter-spacing: 2px;
-  text-align: center;
-  color: #535460;
-}
-
-p {
-  font-family: 'Open Sans', sans-serif;
-  text-align: center;
-  padding: 10px 10px;
-  color: #535460;
-}
-
-/* The below is the unique css for displaying on a mobile device  */
-
-@media only screen and (max-width: 600px) {
-  * {
-    padding: 0px;
-    margin: 0px;
-    box-sizing: border-box;
-  }
-  
-  .content {
-    width: 100vw;
-    height: auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    margin: 10px 0 100px 0;
-    margin-top: 100px;
-  }
-  
-  div.name {
-    width: 100vw;
-    height: 60px;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-  }
-  
-  div.name h1 {
-    font-family: 'Amatic SC', sans-serif;
-    font-size: 40px;
-    letter-spacing: 1px;
-    color: #587274;
-  }
-  
-  h6 {
-    font-size: 15px;
-    font-family: 'Shadows into Light', cursive;
-    padding: 0 0 10px 0;
-    letter-spacing: 2px;
-    text-align: center;
-    color: #535460;
-  }
-  
-  p {
-    font-family: 'Open Sans', sans-serif;
-    text-align: center;
-    padding: 8px 35px;
-    color: #535460;
-    font-size: 11px;
-  }
+.sticky + .content {
+  padding-top: 60px;
 }
