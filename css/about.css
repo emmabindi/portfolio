@@ -1,0 +1,19 @@
+.about {
+  display: flex;
+  flex-direction: column;
+}
+
+.about-text {
+  text-align: justify;
+  font-size: 20px;
+}
+
+.profile-pic {
+  height: 60vh;
+  width: 40vw;
+  background-color: red;
+  background-image: url("../docs/myprofile.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
