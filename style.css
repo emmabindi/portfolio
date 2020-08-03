@@ -28,22 +28,45 @@ body {
 }
 
 .name {
+  height: 50vh;
   font-family: 'Raleway', sans-serif;
   font-size: 40px;
+  display: flex;
+  align-items: center;
+  text-align: left;
+  margin-left: 20px;
 }
 
 #navbar {
   overflow: hidden;
   background-color: white;
+  box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.2);
 }
 
 #navbar a {
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
   text-decoration: none;
+  color: #353839;
   float: right;
   display: block;
   text-align: center;
-  padding: 15px;
+  padding: 25px;
 } 
+
+#nav-name {
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: #353839;
+  float: left;
+  display: block;
+  text-align: center;
+  margin-left: 25px;
+  margin-top: 25px;
+  text-align: center;
+}
 
 .content {
   /* padding-bottom: 55px; */
